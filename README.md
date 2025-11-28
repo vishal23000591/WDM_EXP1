@@ -44,20 +44,28 @@ overcast,64.0,65.0,false,yes
 sunny,72.0,95.0,true,no
 sunny,69.0,70.0,false,yes
 rainy,75.0,80.0,false,yes
+
 ```
 3) After that the file is saved with .arff file format.
 4) Minimize the arff file and then open Start -> Programs -> weka-3-4.
 5) Click on weka-3-4, then Weka dialog box is displayed on the screen.
 6) In that dialog box there are four modes, click on explorer.
 7) Explorer shows many options. In that click on ‘open file’ and select the arff file
-8) Click on edit button which shows employee table on weka.
+8) Click on Edit Button which shows Employee table on Weka
 
 ### OUTPUT:
 
+### Training Data Set employee Table
 
+![image](https://github.com/user-attachments/assets/f91d6c2c-8e18-48ba-90db-5efee39e3db5)
+
+### Training Data Set Weather Table
+
+![image](https://github.com/user-attachments/assets/43dec604-29b1-44c1-9dab-1614199e7a71)
 
 ### PREPROCESSING
 ### Procedure:
+
 #### 1) Add -> Pre-Processing Technique:
 1) Start -> Programs -> Weka-3-4 -> Weka-3-4
 2) Click on explorer.
@@ -75,6 +83,12 @@ rainy,75.0,80.0,false,yes
 14) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### OUTPUT:
+### Weather Table after adding new attribute CLIMATE:
+![image](https://github.com/user-attachments/assets/244ef48c-d0ed-4cea-8b2a-040d39a9a681)
+
+### Employee Table after adding new attribute ADDRESS:
+![image](https://github.com/user-attachments/assets/5e542f05-51eb-4d1a-b807-f697cc75fad9)
+
 
 ### 2) Remove -> Pre-Processing Technique:
 
@@ -91,6 +105,12 @@ rainy,75.0,80.0,false,yes
 11) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### OUTPUT:
+### Weather Table after removing attributes WINDY, PLAY:
+![image](https://github.com/user-attachments/assets/acc84b95-a1f0-47d4-9c16-b385f2a0f321)
+
+### Employee Table after removing attributes SALARY, GENDER:
+![image](https://github.com/user-attachments/assets/5f1f99dd-8c8b-4795-a992-571c59475816)
+
 
 ### Normalize -> Pre-Processing Technique:
 
@@ -107,5 +127,12 @@ rainy,75.0,80.0,false,yes
 11) Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
 
 ### OUTPUT:
+### Weather Table after Normalizing TEMPARATURE, HUMIDITY:
+![image](https://github.com/user-attachments/assets/86497f68-2aeb-460b-8096-75d2d072ec88)
+
+### Employee Table after Normalizing ID, EXP, PHONE:
+![image](https://github.com/user-attachments/assets/fbb68954-f01f-4e8f-8112-17350a1bb61e)
+
+
 ### RESULT: 
   Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
